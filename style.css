@@ -1,0 +1,66 @@
+:root{
+    --cor1:var(red);
+}
+
+@font-face {
+    font-family: "bw-vivant";
+    src: url('font/bw-vivant-black.ttf'), url('font/bw-vivant-bold.ttf'), url('font/bw-vivant-light.ttf'), url('font/bw-vivant-medium.ttf'), url('font/bw-vivant-regular.ttf'), url('font/bw-vivant-thin.ttf'), url('font/BwVivant-Skinny.ttf');
+}
+
+header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_header{
+    margin-left: 50px;
+}
+
+i{
+    color: #D3C09F;
+    font-size: 36px;
+    margin: 50px 50px 0 0;
+}
+
+.corpo-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo{
+    font-family: 'bw-vivant-Skinny';
+    font-size: 72px;
+    font-weight: lighter;
+    color: #483D39;  
+    text-align: right;
+}
+
+.div-titulo{
+    margin-left: 15%;
+    text-align: right;
+}
+
+.btn a{
+    text-decoration: none;
+    border: 1px solid #4F7B60;
+    color: #4F7B60;
+    font-size: 18px;
+    padding: 15px 5px;
+}
+
+.foto-banner{
+    margin-right: 120px;
+    margin-bottom: 100px;
+    margin-top: -100px;
+}
+
+.foto-banner img{
+    width: 400px;
+    height: auto;
+}
