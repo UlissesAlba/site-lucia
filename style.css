@@ -1,21 +1,16 @@
-:root{
-    --cor1:var(red);
-}
-
 @font-face {
     font-family: "bw-vivant";
     src: url('font/bw-vivant-black.ttf'), url('font/bw-vivant-bold.ttf'), url('font/bw-vivant-light.ttf'), url('font/bw-vivant-medium.ttf'), url('font/bw-vivant-regular.ttf'), url('font/bw-vivant-thin.ttf'), url('font/BwVivant-Skinny.ttf');
+}
+
+.container{
+    margin: 0 250px;
 }
 
 header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
 }
 
 .logo_header{
@@ -26,6 +21,11 @@ i{
     color: #D3C09F;
     font-size: 36px;
     margin: 50px 50px 0 0;
+}
+
+.sessao-1{
+    display: flex;
+    justify-content: space-between;
 }
 
 .corpo-header{
@@ -63,4 +63,31 @@ i{
 .foto-banner img{
     width: 400px;
     height: auto;
+}
+
+/* ------------------------------ */
+
+.sessao-2{
+    display: flex;
+    margin-top: 80px;
+}
+
+article{
+    margin-left: 50px;
+}
+
+.titulo-2{
+    font-family: 'bw-vivant-Skinny';
+    font-size: 72px;
+    font-weight: lighter;
+    color: #483D39;  
+    text-align: left;
+}
+
+.texto-sobre{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #483D39;
+    margin-bottom: 50px;
+    margin-top: -25px;
 }
