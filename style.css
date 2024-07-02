@@ -4,7 +4,7 @@
 }
 
 .container{
-    margin: 0 250px;
+    margin: 0 200px;
 }
 
 header{
@@ -78,7 +78,7 @@ article{
 
 .titulo-2{
     font-family: 'bw-vivant-Skinny';
-    font-size: 72px;
+    font-size: 60px;
     font-weight: lighter;
     color: #483D39;  
     text-align: left;
@@ -90,4 +90,66 @@ article{
     color: #483D39;
     margin-bottom: 50px;
     margin-top: -25px;
+}
+
+/* ------------------------------- */
+
+section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 80px;
+}
+
+.texto-h3{
+    text-align: center;
+    font-family: 'bw-vivant-Skinny';
+    font-size: 60px;
+    font-weight: lighter;
+    color: #D3C09F;
+    margin-left: 150px;
+    margin-right: 150px; 
+    padding-top: 50px;
+}
+
+.btn-2{
+    text-align: center;
+}
+
+.btn-2 a{
+    text-decoration: none;
+    border: 1px solid #D3C09F;
+    background-color: white;
+    color: #483D39; 
+    font-size: 18px;
+    padding: 15px 5px;
+    
+}
+/* ----------------------- */
+
+.titulo-atendimento{
+    font-family: 'bw-vivant-Skinny';
+    font-size: 60px;
+    font-weight: lighter;
+    color: #483D39;  
+    text-align: left;
+}
+
+.texto-atendimento{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #483D39;
+}
+
+.cards-1{
+    display: flex;
+}
+.cards-2{
+    display: flex;
+}
+
+.card{
+    border: 1px solid #483D39;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
