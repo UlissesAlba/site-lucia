@@ -1,10 +1,11 @@
 @font-face {
     font-family: "bw-vivant";
-    src: url('font/bw-vivant-black.ttf'), url('font/bw-vivant-bold.ttf'), url('font/bw-vivant-light.ttf'), url('font/bw-vivant-medium.ttf'), url('font/bw-vivant-regular.ttf'), url('font/bw-vivant-thin.ttf'), url('font/BwVivant-Skinny.ttf');
+    src: url('font/BwVivant-Skinny.ttf'), url('font/bw-vivant-black.ttf'), url('font/bw-vivant-bold.ttf'), url('font/bw-vivant-light.ttf'), url('font/bw-vivant-medium.ttf'), url('font/bw-vivant-regular.ttf'), url('font/bw-vivant-thin.ttf'), ;
 }
 
 .container{
     margin: 0 200px;
+    align-items: center;
 }
 
 header{
@@ -34,7 +35,7 @@ i{
 }
 
 .titulo{
-    font-family: 'bw-vivant-Skinny';
+    font-family: 'bw-vivant';
     font-size: 72px;
     font-weight: lighter;
     color: #483D39;  
@@ -67,9 +68,12 @@ i{
 
 /* ------------------------------ */
 
+
+
 .sessao-2{
     display: flex;
     margin-top: 80px;
+    margin-bottom: 150px;
 }
 
 article{
@@ -77,7 +81,7 @@ article{
 }
 
 .titulo-2{
-    font-family: 'bw-vivant-Skinny';
+    font-family: 'bw-vivant';
     font-size: 60px;
     font-weight: lighter;
     color: #483D39;  
@@ -103,7 +107,7 @@ section{
 
 .texto-h3{
     text-align: center;
-    font-family: 'bw-vivant-Skinny';
+    font-family: 'bw-vivant';
     font-size: 60px;
     font-weight: lighter;
     color: #D3C09F;
@@ -120,36 +124,73 @@ section{
     text-decoration: none;
     border: 1px solid #D3C09F;
     background-color: white;
-    color: #483D39; 
+    color: #bdab8b;
     font-size: 18px;
     padding: 15px 5px;
     
 }
 /* ----------------------- */
 
+.container-2{
+    margin: 0 auto;
+    width: 60%;
+ }
+
+.titulo-texto{
+    margin-right: 300px;
+    margin-top: 150px;
+}
+
 .titulo-atendimento{
-    font-family: 'bw-vivant-Skinny';
+    font-family: 'bw-vivant';
     font-size: 60px;
     font-weight: lighter;
     color: #483D39;  
-    text-align: left;
+    text-align: center;
+    margin-bottom: -20px;
+     
 }
 
 .texto-atendimento{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: #483D39;
+    text-align: center;
 }
 
-.cards-1{
-    display: flex;
-}
-.cards-2{
+.sessao-cards{
     display: flex;
 }
 
 .card{
-    border: 1px solid #483D39;
+    border: 1px solid #bdab8b;
     margin-right: 20px;
     margin-bottom: 20px;
+    padding: 10px;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+.card img{
+    width: 80px;
+}
+
+.titulo-card{
+    font-family: 'bw-vivant';
+    color: #483D39;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.texto-card{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #483D39;
+    font-size: 18px;
+}
+
+.img-card img{
+    width: 300px;
+    height: auto;
+    margin-top: -110px;
 }
