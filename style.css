@@ -608,18 +608,21 @@ footer {
     /* ----------------------- */
     
     .container-2 {
-        margin: 0 0;
-        display: block;
+        margin: 0 0px;
+        display: contents;
+       
     }
     
     .titulo-texto {
         text-align: center;
-        margin-right: 0;
+        margin-right: 0px;
         padding-right: 0px;
         padding-left: 0px;
         margin-top: 50px;
     }
     
+
+
     .titulo-atendimento {
         font-family: 'bw-vivant';
         font-size: 60px;
@@ -630,20 +633,25 @@ footer {
     
     }
     
-    .texto-atendimento {
+    .texto-atendimento{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 20px;
         color: #483D39;
         text-align: center;
+        margin: 20px 5px;
+        padding: 0;
     }
     
     .sessao-cards {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     
     .card {
         border: 1px solid #bdab8b;
-        margin-right: 20px;
+        margin-right: 0px;
         margin-bottom: 20px;
         padding: 10px;
         max-width: 300px;
@@ -677,7 +685,6 @@ footer {
     
     /* ------------------------ */
     footer {
-        display: none;
         background-color: #214C39;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -685,8 +692,7 @@ footer {
     }
     
     .footer {
-        display: flex;
-        justify-content: space-between;
+        display: block;
         text-decoration: none;
     }
     
@@ -695,23 +701,36 @@ footer {
     }
     
     .footer img {
-        width: 350px;
+        width: 100%;
+        align-self: center;
     }
     
     .titulo-footer {
         color: rgba(255, 255, 255, 0.671);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 21px;
     }
     
     .texto-footer {
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 21px;
     
     }
     
     .i i {
         color: white;
         margin-top: 0;
+        font-size: 40px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
-    
+
+    .redes p{
+        text-align: center;
+    }
+
+
 }
