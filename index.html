@@ -15,17 +15,10 @@
                 <img src="img/logo_header.png" alt="Lucia Zuffo">
             </div>
             <div class="menu">
-                <a onclick="menuShow()" href=""><i class="fa-solid fa-bars"></i></a>
+                <a onclick="openModal()" href=""><i class="fa-solid fa-bars"></i></a>
             </div>
 
-            <nav class="nav-bar">
-                <div>
-                    <div><img src="img/img-menu.png" alt=""></div>
-                    <div>
-                        <h4>Lúcia Montagner Zuffo</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta laborum reiciendis ad, facere rerum illum fuga rem cumque, ea eaque sunt sequi ab id unde quis sit. Nisi, quae consequuntur.</p>
-                    </div>
-                </div>
+            <div class="modal hidden-"> <!-- Modal -->
                 <div class="navi-list">
                     <ul>
                         <p>MENU</p>
@@ -33,13 +26,13 @@
                         <li class="nav-item"><a href="">Sobre</a></li>
                         <li class="nav-item"><a href="">Serviços</a></li>
                         <p>QUER AGENDAR UMA AVALIAÇÃO?</p>
-                        <div class="btn">
+                        <div class="btn-menu">
                             <a href="#">AGENDAR UMA AVALIAÇÃO</a>
                         </div>
-
+                        <button onclick="closeModal()">Fechar</button>  <!-- Botão de fechar -->
                     </ul>
                 </div>
-            </nav>
+            </div> 
         </div>
         
         <div class="corpo-header">
@@ -149,5 +142,3 @@
     <script src="assets/script.js"></script>
 </body>
 </html>
-
-
